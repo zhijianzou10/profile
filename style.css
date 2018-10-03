@@ -1,0 +1,98 @@
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 5px 5px 8px lightgrey;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 10px lightgrey;
+}
+
+
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.list-photo {
+  width: 150px;
+  height: 75px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+body {
+  background-color: #EFECEC;
+  font-family: roboto;
+  font-size: 18px;
+  color: #363434;
+  line-height: 30px
+}
+
+h1 {
+  font-family: roboto;
+  color: #363434;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: roboto;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+h3 {
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+ul {
+  font-size: 18px;
+  list-style-type: none;
+  margin: 5 auto;
+
+}
+
+a {
+  text-decoration: none;
+  color: #363434;
+}
+
+table {
+  font-size: 17px;
+  margin-top: 1px;
+  margin: 0 auto;
+}
+
+thead > tr {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+#amazon {
+  width: 100px;
+  height: 100px;
+  margin-left: 25px;
+}
